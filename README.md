@@ -1,0 +1,84 @@
+# For
+
+The final construct is the `for` loop. This is one of the more confusing loops in the Ruby language, so it's best to explain this one via an example:
+
+```ruby
+for counter in 1..40 do
+  puts "The current number is #{counter}."
+end
+```
+## A Quick Note on Ruby Ranges
+
+Before going into the `for` example, it's important to explain what `1..40` does. `1..40` is a [`Range`](http://www.ruby-doc.org/core-2.2.0/Range.html) object. A range represents an interval that starts with a beginning element, and ends with an end element. The range we have starts with a 1, and ends with a 40. Open up IRB in your Terminal, and type in `(1..40).to_a`. You're converting a Range object to an Array object, and it will return an array with all of the numbers that constitute the `1..40` range.
+
+## How does `for` work?
+When the `for` keyword is executed, it sets `counter` equal to the first element of the range, which is 1. The first output of the `for` statement is `The current number is 1.`. It will keep going through the range until it reaches the last element, which is 40. What will be the output of the last element? `The current number is 40.`.
+
+## Why Use `for`?
+
+Imagine we have a collection or a list of objects. Let's say your are a prominent collector of sneakers and you are going through your sneaker collection and preforming a certain action, putting them away in their box, for each pair. If you have 32 paris of sneakers, you need to preform that action 32 times, once for each pair. We could do this with one of the constructors we've learned so far. Let's try it with a `while` loop: 
+
+```ruby 
+shoe_count = 0 
+
+while shoe_count >= 32
+	puts "I'm putting a pair of shoes away."
+	shoe_count += 1
+end
+``` 
+
+Let's look at the same example using `for`. 
+
+```ruby
+shoe_count = 1..32
+
+for shoe in shoe_count 
+	puts "I'm putting a pair of shoes away."
+end
+```
+
+There are few things about using `for` in this scenario that improve upon our original implementation. 
+
+* We no longer need the counter varialbe, `shoe_count`, to keep track of the shoes. 
+* This example is more explicit––when you read it, it speaks even more plainly about the behavior of our program. 
+
+## For as an Iterator
+
+In the next unit, we'll be learning much more about collection of data, such as Arrays, and iteration––the action of moving over every member in a collection of data and preforming certain actions on each of those members. The `for` constructor is one type of iterator and we'll be revisiting it soon. 
+
+%%% 
+
+## Using For
+
+Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten times. For each item in the checklist, our method will puts out "Wingardium Leviosa."
+
+Fill out the content of the `using_for` method below so that it outputs "Windgardium Leviosa" 10 times, once for each item on our checklist.
+
+```ruby
+def using_for
+	checklist = 1..10
+	#your code here
+end
+
+~~~solution
+
+def using_for
+	checklist = 1..10
+	
+	for item in checklist
+		puts "Windgardium Leviosa"
+	end
+	
+	puts "You did it! The feather is levitating!"
+end
+
+using_for
+
+~~~validation
+looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
+
+expect{ using_for }.to output(looping_string).to_stdout
+
+```
+
+%%%
