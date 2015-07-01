@@ -46,39 +46,11 @@ There are few things about using `for` in this scenario that improve upon our or
 
 In the next unit, we'll be learning much more about collection of data, such as Arrays, and iteration––the action of moving over every member in a collection of data and preforming certain actions on each of those members. The `for` constructor is one type of iterator and we'll be revisiting it soon. 
 
-%%% 
 
-## Using For
+# Using For
 
-Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten times. For each item in the checklist, our method will puts out "Wingardium Leviosa."
+Fork and clone this lab, then read the below instructions and run the test suite to get started. 
 
-Fill out the content of the `using_for` method below so that it outputs "Windgardium Leviosa" 10 times, once for each item on our checklist.
+* Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten times. For each item in the checklist, our method will puts out "Wingardium Leviosa"
 
-```ruby
-def using_for
-	checklist = 1..10
-	#your code here
-end
-
-~~~solution
-
-def using_for
-	checklist = 1..10
-	
-	for item in checklist
-		puts "Windgardium Leviosa"
-	end
-	
-	puts "You did it! The feather is levitating!"
-end
-
-using_for
-
-~~~validation
-looping_string = "Wingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\nWingardium Leviosa\n"
-
-expect{ using_for }.to output(looping_string).to_stdout
-
-```
-
-%%%
+* Fill out the content of the `using_for` method in the `for.rb` file so that it outputs "Windgardium Leviosa" 10 times, once for each item on our checklist.
