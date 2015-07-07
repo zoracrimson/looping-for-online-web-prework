@@ -41,6 +41,7 @@ There are few things about using `for` in this scenario that improve upon our or
 
 * We no longer need the counter varialbe, `shoe_count`, to keep track of the shoes. 
 * This example is more explicit––when you read it, it speaks even more plainly about the behavior of our program. 
+* All of the mechanics of looping––the counter, the incrementation––are abstracted away into one line: `for shoe in shoe_count`. Meanwhile, actual meat of the loop––what we want the loop to do or execute––all occurs inside the block, underneat the `for` line. 
 
 ## For as an Iterator
 
