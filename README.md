@@ -1,4 +1,9 @@
-# For
+# The `for` Construct
+
+1. Understand the `for` construct and how it is used to implement looping.
+2. Build a method that uses the `for` construct.
+
+## Introduction 
 
 The final construct is the `for` loop. This is one of the more confusing loops in the Ruby language, so it's best to explain this one via an example:
 
@@ -7,7 +12,7 @@ for counter in 1..40 do
   puts "The current number is #{counter}."
 end
 ```
-## A Quick Note on Ruby Ranges
+### A Quick Note on Ruby Ranges
 
 Before going into the `for` example, it's important to explain what `1..40` does. `1..40` is a [`Range`](http://www.ruby-doc.org/core-2.2.0/Range.html) object. A range represents an interval that starts with a beginning element, and ends with an end element. The range we have starts with a 1, and ends with a 40. Open up IRB in your Terminal, and type in `(1..40).to_a`. You're converting a Range object to an Array object, and it will return an array with all of the numbers that constitute the `1..40` range.
 
