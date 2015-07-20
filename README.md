@@ -1,4 +1,4 @@
-# The `for` Construct
+## Objectives
 
 1. Understand the `for` construct and how it is used to implement looping.
 2. Build a method that uses the `for` construct.
