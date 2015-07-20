@@ -54,4 +54,4 @@ Fork and clone this lab, then read the below instructions and run the test suite
 
 * Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten times. For each item in the checklist, our method will puts out "Wingardium Leviosa"
 
-* Fill out the content of the `using_for` method in the `for.rb` file so that it outputs "Windgardium Leviosa" 10 times, once for each item on our checklist.
+* Fill out the content of the `using_for` method in the `for.rb` file so that it outputs "Wingardium Leviosa" 10 times, once for each item on our checklist.
