@@ -24,7 +24,7 @@ When the `for` construct is executed, it sets `counter` equal to the first eleme
 
 ### Why Use `for`?
 
-Imagine we have a collection or a list of objects. Let's say your are a prominent collector of sneakers and you are going through your sneaker collection and performing a certain action, putting them away in their box, for each pair. If you have 32 pairs of sneakers, you need to perform that action 32 times, once for each pair. We could do this with one of the constructors we've learned so far. Let's try it with a `while` loop: 
+Imagine we have a collection or a list of objects. Let's say you are a prominent collector of sneakers and you are going through your sneaker collection and performing a certain action, putting them away in their box, for each pair. If you have 32 pairs of sneakers, you need to perform that action 32 times, once for each pair. We could do this with one of the constructors we've learned so far. Let's try it with a `while` loop: 
 
 ```ruby 
 shoe_count = 0 
