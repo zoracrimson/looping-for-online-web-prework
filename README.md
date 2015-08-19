@@ -22,6 +22,16 @@ Before going into the `for` example, it's important to explain what `1..40` does
 
 When the `for` construct is executed, it sets `counter` equal to the first element of the range, which in our case is `1`. The first output of the `for` statement is `The current number is 1.`. It will keep going through the range until it reaches the last element, which is `40`. What will be the output of the last element? `The current number is 40.`.
 
+Here's an abstracted version of the syntax: 
+
+```ruby
+for inidividual_element in range 
+	execute some code
+end
+```
+
+What you name your `inidivual_element` when constructing your `for` loop doesn't really matter. It should be in line, however, with whatever variable name you choose to point to your range. Check out the example below for a better understanding:
+
 ### Why Use `for`?
 
 Imagine we have a collection or a list of objects. Let's say your are a prominent collector of sneakers and you are going through your sneaker collection and performing a certain action, putting them away in their box, for each pair. If you have 32 pairs of sneakers, you need to perform that action 32 times, once for each pair. We could do this with one of the constructors we've learned so far. Let's try it with a `while` loop: 
@@ -59,6 +69,6 @@ In the next unit, we'll be learning much more about collections of data, such as
 
 Fork and clone this lab, then read the instructions below and run the test suite to get started. 
 
-* Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten (10) times. For each item in the checklist, our method will `puts` "Wingardium Leviosa".
+* Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten (10) times. For each `item` in the checklist, our method will `puts` "Wingardium Leviosa".
 
 * Fill out the content of the `using_for` method in the `for.rb` file so that it `puts` "Wingardium Leviosa" ten (10) times, once for each item on our checklist.
