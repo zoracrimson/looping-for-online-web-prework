@@ -39,7 +39,7 @@ Imagine we have a collection or a list of objects. Let's say your are a prominen
 ```ruby 
 shoe_count = 0 
 
-while shoe_count >= 32
+while shoe_count <= 32
 	puts "I'm putting a pair of shoes away."
 	shoe_count += 1
 end
