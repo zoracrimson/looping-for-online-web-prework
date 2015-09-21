@@ -25,12 +25,12 @@ When the `for` construct is executed, it sets `counter` equal to the first eleme
 Here's an abstracted version of the syntax: 
 
 ```ruby
-for inidividual_element in range 
-	execute some code
+for individual_element in range 
+  execute some code
 end
 ```
 
-What you name your `inidivual_element` when constructing your `for` loop doesn't really matter. It should be in line, however, with whatever variable name you choose to point to your range. Check out the example below for a better understanding:
+What you name your `individual_element` when constructing your `for` loop doesn't really matter. It should be in line, however, with whatever variable name you choose to point to your range. Check out the example below for a better understanding:
 
 ### Why Use `for`?
 
@@ -40,8 +40,8 @@ Imagine we have a collection or a list of objects. Let's say you are a prominent
 shoe_count = 0 
 
 while shoe_count <= 32
-	puts "I'm putting a pair of shoes away."
-	shoe_count += 1
+  puts "I'm putting a pair of shoes away."
+  shoe_count += 1
 end
 ``` 
 
@@ -51,7 +51,7 @@ Let's look at the same example using `for`.
 shoe_count = 1..32
 
 for shoe in shoe_count 
-	puts "I'm putting a pair of shoes away."
+  puts "I'm putting a pair of shoes away."
 end
 ```
 
