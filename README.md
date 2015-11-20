@@ -16,7 +16,7 @@ end
 ```
 ### A Refresher on Ranges
 
-Before going into the `for` example, it's important to explain what `1..40` does. `1..40` is a [`Range`](http://www.ruby-doc.org/core-2.2.0/Range.html) object. A range represents an interval that starts with a beginning element, and ends with an end element. The range we creating above starts with a `1`, and ends with a `40`. Open up IRB in your Terminal, and type in `(1..40).to_a`. You're converting a range object to an array object, and it will return an array with all of the numbers that constitute the `1..40` range.
+Before going into the `for` example, it's important to explain what `1..40` does. `1..40` is a [`Range`](http://www.ruby-doc.org/core-2.2.0/Range.html) object. A range represents an interval that starts with a beginning element, and ends with an end element. The range we created above starts with a `1`, and ends with a `40`. Open up IRB in your Terminal, and type in `(1..40).to_a`. You're converting a range object to an array object, and it will return an array with all of the numbers that constitute the `1..40` range.
 
 ## How Does `for` Work?
 
