@@ -72,3 +72,5 @@ Fork and clone this lab, then read the instructions below and run the test suite
 * Okay, we're kind of at the bottom of the spell casting class and we need to spend a little bit more time practicing our levitation charm. We've made a checklist and promised to practice the charm ten (10) times. For each `item` in the checklist, our method will `puts` "Wingardium Leviosa".
 
 * Fill out the content of the `using_for` method in the `for.rb` file so that it `puts` "Wingardium Leviosa" ten (10) times, once for each item on our checklist.
+
+<a href='https://learn.co/lessons/looping-for' data-visibility='hidden'>View this lesson on Learn.co</a>
